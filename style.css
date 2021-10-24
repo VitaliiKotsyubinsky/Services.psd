@@ -1,0 +1,45 @@
+.wrappe {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.cards {
+    margin: 100px auto;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.item {
+    max-width: 226px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.item_icon {
+    margin: 0 auto;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    background-color: #1275b9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #1275b9;
+    transition: all .3s;
+}
+
+.item_icon:hover {
+    background-color: #fff;
+    color: #1275b9;
+}
+
+.item_icon svg {
+    fill: currentColor;
+}
